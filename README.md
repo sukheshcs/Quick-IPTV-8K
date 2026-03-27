@@ -38,35 +38,9 @@
 
 You will need **Node.js** (v18 or newer) and **npm** installed on your machine.
 
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/QuickIPTV8K.git
-   cd QuickIPTV8K
-   ```
-
-2. Install the dependencies:
-   ```bash
-   npm install
-   ```
-
-### Running Locally (Development)
-
-Start the Vite development server and the Electron wrapper simultaneously:
-```bash
-npm run electron:dev
-```
 
 ---
 
-## 📦 Building for Production
-
-To compile the application into standard desktop installers/executables natively for your OS:
-
-```bash
-npm run build
-```
 
 *Note: For macOS, `package.json` is configured to build a **Universal Binary** supporting both Intel (`x64`) and Apple Silicon (`arm64`) architectures natively.*
 
